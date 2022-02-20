@@ -9,3 +9,4 @@
 ### Windows
 -  Executando scriptss atraves do terminal prompt;
 -  Comandos do Linux Bash dentro Windows;
+-  Gerenciador de pacotes(chocolatey)

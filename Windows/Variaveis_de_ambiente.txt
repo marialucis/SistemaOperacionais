@@ -1,0 +1,29 @@
+**Fazendo backup da PATH
+(Importante) Criando um backup do seu PATH!
+echo %PATH% > backupPATH.txt
+
+A PATH CONTEM TODOS OS CAMINHOS DE EXECUTAVEIS QUE O WINDOWS FAZ A VARREDURA
+NA PASTA BIN FICA OS SCRIPTS
+
+
+**CRIANDO VARIAVEL DE AMBIENTE PERMANENTE 
+setx PATH "%PATH%;C:\Users\Lux\bin" /M
+OBS: USAR O COMANDO NO CMD COMO ADM
+
+
+
+**Comandos
+- Set = Mostra todas as variaveis de ambiente na linha de comando
+- Setx= cria a variavel de ambiente PERMANENTE (setx PASTA_CODIGO "C:\Users\caelum\codigos" /M)(setx JAVA_HOME "C:\Program Files\Java\jdk1.8.0_65" /M)
+- Set = cria variavel de ambiente temporaria, soma assim que fechamos o cmder
+
+A diferença é que o setx altera as variáveis permanentemente, enquanto o set serve apenas enquanto o terminal está aberto.
+Lembrando que devemos sempre o usar o setx com a flag /M se quisermos que a alteração seja permanente.
+
+
+wmic OS get OSArchitecture = exibe a arquitetura do processador
+wmic é um comando que dá acesso ao Windows Management Instrumentation. O wmic é mais importante para administradores de infraestrutura e possui muito mais funções.
+Para gente basta saber se é 32bit ou 64bit!
+
+ Windows + Pause
+

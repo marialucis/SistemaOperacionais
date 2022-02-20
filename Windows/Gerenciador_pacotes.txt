@@ -1,0 +1,23 @@
+Chocolatey é um gerenciador de pacotes para Windows
+
+Para instalar, abra o CMD como Administrador e execute o seguinte:
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+
+**Comandos
+PARA VERIFICAR O NOME DOS PACOTES, ACESSAR https://chocolatey.org/
+
+INSTALANDO PACOTES
+choco install <nome-do-pacote> = instala um pacote/programa
+choco install -y
+
+REMOVENDO PACOTES
+choco uninstall <nome_do_pacote> = remove o pacote 
+
+PACOTES LOCAIS
+choco list
+choco list -l
+choco search
+

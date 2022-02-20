@@ -32,15 +32,4 @@ Utilizando o Prompt do Windows para comandos de terminal
 
 
 
-**Fazendo backup da PATH
-(Importante) Criando um backup do seu PATH!
-echo %PATH% > backupPATH.txt
-
-A PATH CONTEM TODOS OS CAMINHOS DE EXECUTAVEIS QUE O WINDOWS FAZ A VARREDURA
-NA PASTA BIN FICA OS SCRIPTS
-
-
-**CRIANDO VARIAVEL DE AMBIENTE PERMANENTE 
-setx PATH "%PATH%;C:\Users\Lux\bin" /M
-OBS: USAR O COMANDO NO CMD COMO ADM
 

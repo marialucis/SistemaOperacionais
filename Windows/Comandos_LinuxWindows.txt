@@ -1,0 +1,22 @@
+
+
+
+Para executar comandos linux no windows, deverá baixar o cmder via chocolatey
+
+*INSTALANDO O CMDER 
+choco install cmder -y
+
+USANDO COMANDOS 
+* ls -lt = lista e ordena pela data de modificação
+* ls -lth = lista e mostra o tamanho dos arquivos em kb e mb
+* ls -lsh = ordena pelo tamanho
+* ls --help= mostra as opçoes
+* ls - al = lista todos os arquivos incluindo os ocultos
+
+
+* geep= busca na linha de comando 
+* rn - remove
+* rndir= remove diretorios
+* mv - move diretorios
+* cp = copia
+* cat = exibe arquivo
