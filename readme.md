@@ -9,4 +9,9 @@
 ### Windows
 -  Executando scriptss atraves do terminal prompt;
 -  Comandos do Linux Bash dentro Windows;
+<<<<<<< HEAD
 -  Gerenciador de pacotes(chocolatey)
+=======
+-  Criação de scripts .bat;
+
+>>>>>>> 029cc70a261e22aa74058d2fa6c516ffe05b9d39
