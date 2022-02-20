@@ -1,0 +1,46 @@
+Utilizando o Prompt do Windows para comandos de terminal
+
+1-Abrir o CMD na barra de pesquisa do Windows ou execute o CTRL+R e digite o CMD;
+2-Assim que Abrir o cmd já exibe a home do usuario;
+
+* Comandos
+
+- DIR = Lista todos os arquivos
+- CD (change directory) = Navega entre diretorios
+- MKDIR (make directory) = Cria diretorios
+- RMDIR = Remove diretorios
+- CLS = Limpa terminal
+
+* Trabalhando com arquivos
+
+- echo Oi Mundo > saida.txt = Então o caractere > pega a saída de um comando e a grava no arquivo indicado (ou repassa para outro comando)
+- type saida.txt = verifica o conteudo do arquivo;
+- del saida.txt = remove arquivo;
+- copy saida.txt saida2.txt = copia arquivos;
+- rename saida2.txt mensagem.txt = altera o nome dos arquivos;
+- move mensagem.txt = move arquivos ou pastas para onde quiser;
+
+- criar (mkdir) e remover (rmdir) diretórios
+- copiar (copy) e apagar arquivos (del)
+- imprimir no prompt com o comando echo
+- saber a diferença entre . e ..
+- criar arquivos com >
+- ver o conteúdo do arquivo (type)
+- mover pastas e arquivos (move)
+- renomear diretórios e arquivos (rename)
+
+
+
+
+**Fazendo backup da PATH
+(Importante) Criando um backup do seu PATH!
+echo %PATH% > backupPATH.txt
+
+A PATH CONTEM TODOS OS CAMINHOS DE EXECUTAVEIS QUE O WINDOWS FAZ A VARREDURA
+NA PASTA BIN FICA OS SCRIPTS
+
+
+**CRIANDO VARIAVEL DE AMBIENTE PERMANENTE 
+setx PATH "%PATH%;C:\Users\Lux\bin" /M
+OBS: USAR O COMANDO NO CMD COMO ADM
+
